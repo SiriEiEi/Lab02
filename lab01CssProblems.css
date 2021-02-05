@@ -1,33 +1,50 @@
 /*Give the <body> element a background of */
-ิ body{
-    background-color:black;
-    font-family: 'Itim', cursive;
+body{ 
+    background-color: rgb(0, 0, 0);
+    font-family: 'Itim',cursive;
+    color:rgb(255, 255, 255);
 }
 /*Make the <h1> elements blue*/
 h1{
-    color: rgb(60, 58, 196);
-    font-family: 'Itim', cursive;
+    color: blue;  
 }
 
 /*Make all <li> elements in the shade of hexadecimal blue*/
-ul{color: #2EA0A8;}
+ul{
+    color: #ce80bd;
+}
 /*Paragraph background to orange*/
-p{background-color: orange;}
+p{
+    background-color: orange;
+}
 /*Make all <h3> have 5px red solid border*/
 h3{
     border:solid red ;
     border-width :5px; 
 }
 /*Give everything with <abbr> bold and underlined*/
-abbr{font-weight: bold; text-decoration: underline; }
+abbr{
+    font-weight: bold; 
+    text-decoration: underline; 
+}
 /*Give elements with class "explanation" red*/
-.explanation{color: red;}
+.explanation{
+    color: red;
+}
 /*Give <p> in id "zen-benefits" pink background*/
-#zen-benefits p{background-color: pink;}
+#zen-benefits p{
+    background-color: pink;
+    color: rgb(97, 19, 6);
+}
 /*Make <li> adjacent to <h2> red background*/
-h2, h2 ~ ul{background-color: red;}
+h2, h2 ~ ul{
+    background-color: red;
+}
 /*Give <em> inside <p> red and bold*/
-p em{color: red; border-style: bold;}
-.css{
-    
+p em{
+    color: red; border-style: bold;
+}
+
+.resources{
+    text-decoration: blueviolet;
 }
